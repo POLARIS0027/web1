@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
     // naver.com 도메인인 경우 직접 연결
-    if (shExpMatch(host, "nttdata-sbc.co.jp")) {
+    if (shExpMatch(host, "*.nttdata-sbc.co.jp")) {
         return "DIRECT";
     }
     
