@@ -5,5 +5,5 @@ function FindProxyForURL(url, host) {
     }
     
     // 그 외의 경우는 프록시 사용
-    return "PROXY 153.165.168.137:8080";
+    return "PROXY 192.168.10.101:808";
 }
