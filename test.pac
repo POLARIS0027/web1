@@ -5,5 +5,5 @@ function FindProxyForURL(url, host) {
     }
     
     // 그 외의 경우는 프록시 사용
-    return "PROXY 192.168.10.101:808";
+    return "PROXY ec2-35-78-104-189.ap-northeast-1.compute.amazonaws.com:808";
 }
